@@ -1,0 +1,782 @@
+body {
+    overflow-x: hidden;
+}
+
+main#landPrincipal div, main#landPrincipal span, main#landPrincipal applet, main#landPrincipal object, main#landPrincipal iframe,
+main#landPrincipal h1, main#landPrincipal h2, main#landPrincipal h3, main#landPrincipal h4, main#landPrincipal h5, main#landPrincipal h6, main#landPrincipal p, main#landPrincipal blockquote, main#landPrincipal pre,
+main#landPrincipal a, main#landPrincipal abbr, main#landPrincipal acronym, main#landPrincipal address, main#landPrincipal big, main#landPrincipal cite, main#landPrincipal code,
+main#landPrincipal del, main#landPrincipal dfn, main#landPrincipal em, imain#landPrincipal mg, main#landPrincipal ins, main#landPrincipal kbd, main#landPrincipal q, main#landPrincipal s, main#landPrincipal samp,
+main#landPrincipal small, main#landPrincipal strike, main#landPrincipal strong, main#landPrincipal sub, main#landPrincipal sup, main#landPrincipal tt, main#landPrincipal var,
+main#landPrincipal b, main#landPrincipal u, main#landPrincipal i, main#landPrincipal center,
+main#landPrincipal dl, main#landPrincipal dt, main#landPrincipal dd, main#landPrincipal ol, main#landPrincipal ul, main#landPrincipal li,
+main#landPrincipal fieldset, main#landPrincipal form, main#landPrincipal label, main#landPrincipal legend,
+main#landPrincipal table, main#landPrincipal caption, main#landPrincipal tbody, main#landPrincipal tfoot, main#landPrincipal thead, main#landPrincipal tr, main#landPrincipal th, main#landPrincipal td,
+main#landPrincipal article, main#landPrincipal aside, main#landPrincipal canvas, main#landPrincipal details, main#landPrincipal embed, 
+main#landPrincipal figure, main#landPrincipal figcaption, main#landPrincipal footer, main#landPrincipal header, main#landPrincipal hgroup, 
+main#landPrincipal menu, main#landPrincipal nav, omain#landPrincipal utput, main#landPrincipal ruby, main#landPrincipal section, main#landPrincipal summary,
+main#landPrincipal time, main#landPrincipal mark, main#landPrincipal audio, main#landPrincipal video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+main#landPrincipal article, main#landPrincipal aside, main#landPrincipal details, main#landPrincipal figcaption, main#landPrincipal figure, 
+main#landPrincipal footer, main#landPrincipal header, main#landPrincipal hgroup, main#landPrincipal menu, main#landPrincipal nav, main#landPrincipal section {
+	display: block;
+}
+main#landPrincipal blockquote, main#landPrincipal q {
+	quotes: none;
+}
+main#landPrincipal blockquote:before, main#landPrincipal blockquote:after,
+main#landPrincipal q:before, main#landPrincipal q:after {
+	content: '';
+	content: none;
+}
+main#landPrincipal table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main#landPrincipal a {
+ color:inherit;
+ text-decoration: none;
+}     
+
+/***************** CLASSES E IDS GERAIS ******************/
+
+main#landPrincipal {
+	width: 100%;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    background: #eeeeee;
+}
+main#landPrincipal .container-dois{
+    background: #eeeeee;
+}
+main#landPrincipal .container{
+    width: 767px;
+    margin: auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+main#landPrincipal img {
+    display: block;
+    max-width: 100%;
+}
+
+main#landPrincipal .cabecalho{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 660px;
+    border-bottom: 5px solid #feba3c;
+    justify-content: center;
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/1131_banner-regulamentos-netshoes.jpg) center center no-repeat;
+    background-size: cover;
+}
+main#landPrincipal .cabecalho .box--cabecalho{
+    display: flex;
+    flex-direction: column;
+    max-width: 633px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+main#landPrincipal .cabecalho .box--cabecalho h1{
+    font-family: "Netshoes Display Bold";
+    font-size: 2rem;
+    color: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+main#landPrincipal .cabecalho .box--cabecalho p{
+    font-family: "Netshoes Display Bold";
+    font-size: 1rem;
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+/*FAQ*/
+main#landPrincipal section.faq{
+    width: 100%;
+    position: relative;
+    background: #550090;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: block;
+}
+main#landPrincipal section.faq h2{
+    font-size: 2em;
+    font-family: 'Netshoes Display Black';
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+main#landPrincipal .perguntas-frequentes { 
+   margin: 0 auto; 
+}
+main#landPrincipal dl.lista_definicao{
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+main#landPrincipal .lista_definicao dt a { 
+    display: block; 
+    padding: 40px 45px 10px 0px; 
+    background-color: #550090;
+    font-family: 'Netshoes Display Bold';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #FFF;
+    
+    position: relative;
+    max-width: 767px;
+    margin: auto;
+    border-bottom: 2px solid #FFF;
+    box-sizing: border-box;
+}
+main#landPrincipal .lista_definicao dt a.setinha{
+    background-color: #eeeeee;
+    color: #550090;
+    border-bottom: 2px solid #550090;
+}
+
+
+main#landPrincipal section.faq .perguntas-frequentes .lista_definicao dt.clicado{
+    background: #eeeeee;
+    
+}
+main#landPrincipal .lista_definicao dt:last-of-type{
+    border-bottom: 0;
+}
+main#landPrincipal .lista_definicao dd{ 
+    display: none;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+main#landPrincipal section.faq .perguntas-frequentes .lista_definicao dt{
+    position: relative;
+    background: #550090;
+}
+
+main#landPrincipal .lista_definicao dd p{
+    color: #550090;
+    font-family: 'Netshoes Display Bold';
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+main#landPrincipal .lista_definicao dd p strong{
+    font-family: 'Netshoes Display Black';
+}
+main#landPrincipal .lista_definicao dd p a{
+    color: #e79600;
+}
+main#landPrincipal .lista_definicao dd p a:hover{
+    text-decoration: underline;
+}
+
+/*Setinha baixo*/
+main#landPrincipal section.faq .perguntas-frequentes .lista_definicao dt a:before {
+    content: '';
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/4522_seta-baixo.png);
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+}
+/*Setinha Cima*/
+main#landPrincipal section.faq .perguntas-frequentes .lista_definicao dt a.setinha:before {
+    content: '';
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/9542_seta-cima.png);
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon{
+    width: 50px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-frete{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/3564_frete.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-frete{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/2052_frete-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-entrega{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/7358_entrega.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-entrega{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/1629_entrega-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-magalu{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/5475_retira-loja-magalu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-magalu{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/8931_retira-loja-magalu-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-ncard{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/8866_ncard.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-ncard{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/52_ncard-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-cupom{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/166_desconto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-cupom{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/630_desconto-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a .icon-camisas{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/1828_personalizacao.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main#landPrincipal section.faq .perguntas-frequentes dl.lista_definicao dt a.setinha .icon-camisas{
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/2373_personalizacao-hover.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main#landPrincipal .box--ncard{
+    display: flex;
+    align-items: center;
+}
+main#landPrincipal .box--ncard .box--ncard_txt{
+    flex: 2;
+}
+main#landPrincipal .box--ncard .box--ncard_img{
+    flex: 1;
+    margin-left: 15px;
+}
+
+main#landPrincipal .box--camisas{
+    display: flex;
+    align-items: flex-end;
+}
+main#landPrincipal .box--camisas .box--camisas_txt{
+    flex: 1;
+}
+main#landPrincipal .box--camisas .box--camisas_img{
+    flex: 1;
+    margin-left: 15px;
+}
+
+main#landPrincipal .box--passos{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main#landPrincipal .box--passos .box-passos_numero{
+    background: #550090;
+    color: #eeeeee;
+    font-family: 'Netshoes Display Black Italic';
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    justify-content: center;
+}
+main#landPrincipal .box--passos .box-passos_txt{
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #FFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+main#landPrincipal .box--passos .box-passos_txt p{
+    margin-bottom: 0px;
+}
+
+main#landPrincipal .tabelas{
+    background: #550090;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+}
+main#landPrincipal table.tabela-resp{
+    width: 90%;   
+    font-family: 'Netshoes Regular';
+    margin-left: auto;
+    margin-right: auto;
+    background: #550090;
+    color: #eee;
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+}
+
+main#landPrincipal table.tabela-resp th{
+    border: 2px solid #FFF;
+    border-collapse: collapse;
+    padding: 9px;
+    font-family: 'Netshoes Display Black';
+}
+main#landPrincipal table.tabela-resp tr td{
+    border-collapse: collapse;
+    padding: 9px;
+    border-right: 2px solid #FFF;
+}
+
+main#landPrincipal section.faq .faq--container{
+    max-width: 767px;
+    margin: auto;
+    box-sizing: border-box;;
+    padding-top: 30px;
+}
+main#landPrincipal section.faq .faq--container h3{
+    font-family: "Netshoes Display Black";
+    color: #FFF;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+main#landPrincipal section.faq .faq--container p{
+    font-family: "Netshoes Display Bold";
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+main#landPrincipal section.cupons-desconto{
+    background: #ff1b69;
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+main#landPrincipal section.cupons-desconto h3{
+    font-family: "Netshoes Display Black";
+    color: #FFF;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+main#landPrincipal .cupons-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main#landPrincipal .cupons-container .cupons-item{
+    margin-bottom: 10px;
+}
+
+main#landPrincipal .tickets-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 134px;
+}
+main#landPrincipal .tickets-box .tickets-line1{
+    font-family: "Netshoes Display Black";
+    color: #feba3c;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+main#landPrincipal .tickets-box .tickets-line2{
+    font-family: "Netshoes Display Black";
+    color: #feba3c;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+main#landPrincipal .tickets-box .tickets-line2 span{
+    font-size: 0.7rem;
+}
+main#landPrincipal .tickets-box .tickets-line3{
+    font-family: "Netshoes Display Bold";
+    color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+main#landPrincipal .tickets-box .tickets-line3 span{
+    color: #feba3c;
+    border: 1px dashed #feba3c;
+    padding: 1px 2px;
+    box-sizing: border-box;
+}
+
+main#landPrincipal .center, main#landPrincipal .modal main#landPrincipal .modal__content, main#landPrincipal .modal {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+main#landPrincipal .show {
+    transition: background 500ms ease;
+    background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/4083_tag.svg) center no-repeat;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 0;
+    width: 238px;
+    height: 134px;
+    display: inline-block;
+}
+
+main#landPrincipal .close {
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 15px;
+    background: #550090;
+    color: #FFFFFF;
+    top: 10px;
+    right: 10px;
+    font-family: "Netshoes Display Bold";
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+main#landPrincipal .mask {
+    background: rgba(0, 0, 0, 0.68);
+    visibility: hidden;
+    transition: 0.7s;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 50;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+
+main#landPrincipal .modal {
+    transition: 0.5s ease-out;
+    background: #FFF;
+    visibility: hidden;
+    position: fixed;
+    height: 80vh;
+    width: 80vw;
+    z-index: 100;
+    opacity: 0;
+    padding: 30px 120px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+main#landPrincipal .active {
+    visibility: visible;
+    opacity: 1;
+}
+
+main#landPrincipal .active + .modal {
+    visibility: visible;
+    opacity: 1;
+}
+main#landPrincipal .modal__content--title{
+    display: flex;
+    justify-content: center;
+}
+main#landPrincipal section.modal__content h2{
+    text-align: center;
+    background: #ff1b69;
+    color: #FFF;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Netshoes Display Black";
+    padding: 10px 30px;
+    margin-bottom: 15px;
+}
+main#landPrincipal section.modal__content p{
+    font-family: "Netshoes Display Bold";
+    font-size: 1rem;
+    color: #ff1b69;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+main#landPrincipal section.modal__content p a{
+    color: #550090;
+}
+main#landPrincipal section.modal__content p strong{
+    font-family: "Netshoes Display Black";
+}
+
+
+@media screen and (max-width: 1305px){
+
+    main#landPrincipal .container{
+        width: 930px;
+        margin:auto;
+        box-sizing: border-box;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 930px){
+
+    main#landPrincipal .container{
+        width: 100%;
+        margin:auto;
+	    box-sizing: border-box;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    main#landPrincipal .container{
+        width: 100%;
+        margin:auto;
+	    box-sizing: border-box;
+        padding: 0px 15px;
+    }
+    main#landPrincipal .cabecalho{
+        background: url(https://static.netshoes.com.br/bnn/l_netshoes/2022-06-03/2883_mobile-banner-regulamentos-netshoes.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    main#landPrincipal .tabelas{
+        padding: 0;
+    }
+    main#landPrincipal table.tabela-resp{
+        overflow: visible; 
+        width: 100%;
+    }
+    main#landPrincipal .box--ncard{
+        flex-direction: column;
+    }
+    main#landPrincipal .box--ncard .box--ncard_img{
+        margin-left: 0px;
+    }
+    main#landPrincipal .box--camisas{
+        flex-direction: column;
+    }
+    main#landPrincipal .box--camisas .box--camisas_img{
+        margin-left: 0px;
+    }
+    main#landPrincipal section.faq .faq--container{
+        padding: 30px 20px 0 20px;
+    }
+    main#landPrincipal section.faq .faq--container h3{
+        font-size: 2rem;
+    }
+    main#landPrincipal section.cupons-desconto h3{
+        font-size: 2rem;
+    }
+    main#landPrincipal .modal {
+        padding: 20px 20px;
+    }
+    main#landPrincipal dl.lista_definicao{
+        padding: 0 10px;
+    }
+    main#landPrincipal .lista_definicao dt a.sem-icone{
+        padding: 40px 45px 10px 20px;
+    }
+    main#landPrincipal section.modal__content h2{
+        font-size: 1.5rem;
+        padding: 10px 15px;
+    }
+
+}
+
+
+
+
+
+/*Media Queries resoluções tela cheia a partir de 1200 a 1900px*/
+
+@media (min-width: 1201px) and (max-width: 1250px){
+    main#landPrincipal section.container-dois{
+        width: 1250px;
+        position: relative;
+        left: 50%;
+        margin-left: -650px;
+        float: left;
+        clear: both;
+    }  
+}
+
+@media (min-width: 1251px) and (max-width: 1300px){
+    main#landPrincipal section.container-dois{
+        width: 1300px;
+        position: relative;
+        left: 50%;
+        margin-left: -650px;
+        float: left;
+        clear: both;
+    }  
+}
+
+
+@media (min-width: 1306px) and (max-width: 1350px){
+    main#landPrincipal section.container-dois{
+        width: 1350px;
+        position: relative;
+        left: 50%;
+        margin-left: -675px;
+        float: left;
+        clear: both;
+    }  
+}
+@media (min-width: 1351px) and (max-width: 1400px){
+    main#landPrincipal section.container-dois{
+        width: 1400px;
+        position: relative;
+        left: 50%;
+        margin-left: -700px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1401px) and (max-width: 1450px){
+    main#landPrincipal section.container-dois{
+        width: 1450px;
+        position: relative;
+        left: 50%;
+        margin-left: -725px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1451px) and (max-width: 1500px){
+    main#landPrincipal section.container-dois{
+        width: 1500px;
+        position: relative;
+        left: 50%;
+        margin-left: -750px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1501px) and (max-width: 1550px){
+    main#landPrincipal section.container-dois{
+        width: 1550px;
+        position: relative;
+        left: 50%;
+        margin-left: -775px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1551px) and (max-width: 1600px){
+    main#landPrincipal section.container-dois{
+        width: 1600px;
+        position: relative;
+        left: 50%;
+        margin-left: -800px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1601px) and (max-width: 1650px){
+    main#landPrincipal section.container-dois{
+        width: 1650px;
+        position: relative;
+        left: 50%;
+        margin-left: -825px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1651px) and (max-width: 1700px){
+    main#landPrincipal section.container-dois{
+        width: 1700px;
+        position: relative;
+        left: 50%;
+        margin-left: -850px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1701px) and (max-width: 1750px){
+    main#landPrincipal section.container-dois{
+        width: 1750px;
+        position: relative;
+        left: 50%;
+        margin-left: -875px;
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 1751px) and (max-width: 1800px){
+    main#landPrincipal section.container-dois{
+        width: 1800px;
+        position: relative;
+        left: 50%;
+        margin-left: -900px;
+        float: left;
+        clear: both;
+    }
+}  
+@media (min-width: 1801px) and (max-width: 1850px){
+    main#landPrincipal section.container-dois{
+        width: 1850px;
+        position: relative;
+        left: 50%;
+        margin-left: -925px;
+        float: left;
+        clear: both;
+    }
+}  
+@media (min-width: 1851px) and (max-width: 1900px){
+    main#landPrincipal section.container-dois{
+        width: 1900px;
+        position: relative;
+        left: 50%;
+        margin-left: -950px;
+        float: left;
+        clear: both;
+    }
+}  
+@media (min-width: 1901px) and (max-width: 1950px){
+    main#landPrincipal section.container-dois{
+        width: 1950px;
+        position: relative;
+        left: 50%;
+        margin-left: -975px;
+        float: left;
+        clear: both;
+    }
+} 
+ 
